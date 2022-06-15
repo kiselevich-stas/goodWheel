@@ -1,0 +1,53 @@
+@media (max-width: 576px) {
+  .intro__info {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .intro-title {
+    font-size: 65px;
+  }
+
+  .intro-title > span:last-child {
+    font-size: 45px;
+  }
+
+  .worked {
+    padding: 40px 0;
+  }
+
+  .worked__item-title {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .worked__item {
+    padding: 5px 15px;
+  }
+
+  .worked__item-img-container {
+    width: 80px;
+    height: 60px;
+  }
+
+  .contacts__item-up {
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contacts__item-address {
+    margin: 0;
+    text-align: center;
+  }
+
+  .contacts__item-num {
+    display: block;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+}
+/*# sourceMappingURL=Small.css.map */

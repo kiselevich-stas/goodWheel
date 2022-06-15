@@ -1,0 +1,19 @@
+@media (max-width: 1399px) {
+  .header__info {
+    gap: 55px;
+  }
+  .header__info__item-text {
+    font-size: 14px;
+  }
+  .header__info__item-text br {
+    display: none;
+  }
+
+  .intro-title {
+    font-size: 110px;
+  }
+  .intro-descr br {
+    display: none;
+  }
+}
+/*# sourceMappingURL=XX-Large.css.map */

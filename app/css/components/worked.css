@@ -1,0 +1,61 @@
+.worked {
+  padding-top: 145px;
+  padding-bottom: 140px;
+}
+.worked .row {
+  row-gap: 1.5rem;
+}
+.worked__item {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  background: #fff;
+  padding: 20px 30px 25px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.worked__item-img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.worked__item-img-container {
+  width: 130px;
+  height: 104px;
+}
+.worked__item-title {
+  margin: 15px;
+  line-height: 1.2;
+  font-family: "ProximaNovaCond", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #555555;
+}
+.worked__item hr {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 10px;
+  transition: all 0.3s ease-in-out;
+  margin: 0;
+  height: 0;
+  opacity: 1;
+}
+.worked__item:hover {
+  transition: all 0.3s ease-in-out;
+}
+.worked__item:hover hr {
+  background: var(--c-primary);
+  margin: 0 auto;
+  transform: translate(-50%, 0%);
+  width: 200px;
+  height: 10px;
+}
+/*# sourceMappingURL=worked.css.map */

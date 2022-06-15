@@ -1,0 +1,12 @@
+@media (max-width: 1441px) {
+  .worked {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 800px) {
+  .intro {
+    padding-top: 0;
+  }
+}
+/*# sourceMappingURL=Custom.css.map */
